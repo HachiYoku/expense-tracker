@@ -1,0 +1,237 @@
+body {
+  background-color: #06140c;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inria Sans", sans-serif;
+}
+/* homepage */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+.hero p {
+  font-size: 1.25rem;
+  color: #fff;
+}
+.feature-icon {
+  font-size: 2rem;
+  color: #007bff;
+}
+.cta-btn {
+  margin-top: 30px;
+}
+.feature-box {
+  transition: transform 0.3s ease;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+/* main-content  */
+
+.main-heading{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fa-arrow-left{
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#usernameDisplay{
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.btn-sign-out{
+  border:5px solid solid rgba(255, 255, 255, 0.2) !important;
+  background-color: black !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-card{
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-title{
+  color: #fff;
+  font-size: 32px !important;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.dashboard-card, 
+.add-transaction-card,
+.transaction-list-card,
+.login-card {
+  margin-top: 2rem;
+  background-color: black;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+
+.add-transaction-card{
+  border-radius: 10px !important;
+}
+
+#income {
+  color: #78fa00;
+}
+
+#expense {
+  color: #ff0202;
+}
+
+.card-title{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 48px;
+  color: #fff;
+}
+
+.dummy-card-text{
+  color: #fff;;
+}
+
+.fa-arrow-up,.percent{
+  color: #78fa00;
+  /* margin-right: 10px; */
+}
+
+.expense-percent,.expense-arrow{
+  color: #ff0202;
+}
+
+.add-transaction-title,
+.transaction-history-title{
+  margin: 25px !important;
+}
+
+.des-div{
+  width: 250px;
+  margin-right: 20px;
+}
+
+.form-control{
+  background-color:rgba(255, 255, 255, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-control::placeholder{
+  color: #fff;
+}
+
+.input-control:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  border: none;
+}
+
+.amount-div{
+  width: 250px;
+  margin-right: 20px;
+}
+
+.form-check-label{
+  color: #fff !important;
+}
+
+.submit-div{
+  /* border: 1px solid #fff; */
+  margin-left: 100px;
+}
+
+.submit-btn{
+  border: none;
+}
+
+.transaction-item{
+  color: #fff;
+  border: none;;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-muted{
+  color: #fff !important;
+}
+
+.history-amount{
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-dload-csv{
+  color: #fff !important;
+  border: none;
+  margin-left: 25px !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 15% auto;
+  width: 90%;
+  max-width: 400px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#confirmMessage{
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer {
+  background: #343a40;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+}
