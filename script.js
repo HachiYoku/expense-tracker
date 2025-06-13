@@ -76,7 +76,8 @@ form.addEventListener("submit", (e) => {
 // Render All Transactions
 function renderTransactions() {
   transactionList.innerHTML = "";
-  let income = 0, expense = 0;
+  let income = 0;
+  let expense = 0;
 
   transactions.forEach(t => {
     const isExpense = t.amount < 0;
